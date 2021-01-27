@@ -24,13 +24,22 @@ public class Main {
         double result = 0;
         result = firstNum % secondNum;
 
+    //  Logical ops
+         // (&&) - And
+         // (||) - Or
+         // (!)  - Not
+
+        boolean isOld = true;
+        boolean isNew = false;
+
         //If Statements
-        if(firstNum <= secondNum) {
-            System.out.println("The Remainder is "+ result);
+        if((isOld || !isNew) && (firstNum < secondNum)) {
+            System.out.println("Hello");
         }
         else {
-            System.out.println("Numbers aren't equal");
+            System.out.println("Not Right");
         }
+
 
 
     }
